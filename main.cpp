@@ -20,7 +20,7 @@ void enterArrayData(double* arr, int size)
 }
 
 //Function definition for outputArrayData
-void outputArrayData(double* arr, size)
+void outputArrayData(double* arr, int size)
 {
     cout << "Outputting array elements: ";
     for (int i = 0; i < size; i++)
@@ -28,4 +28,15 @@ void outputArrayData(double* arr, size)
         cout *(arr + i) << " ";
     }
     cout << "\n";
+}
+
+//Function definition for sumArray
+double sumArray(double* arr, int size)
+{
+    double total = 0.0
+    for (int i = 0; i < size; i++)
+    {
+        total += *(arr + i);
+    }
+    return total;
 }
