@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// function prototypes
+void enterArrayData(double* arr, int size);
+void outputArrayData(double* arr, int size);
+double sumArray(double* arr, int size);
 
 int main()
 {
@@ -16,7 +20,7 @@ int main()
     // call function to output array data
     outputArrayData(dynamicArray, SIZE);
     // calculate and display the sum
-    double sum = 0.0
+    double sum = 0.0;
     sum = sumArray(dynamicArray, SIZE);
     cout << "Sum of values: " << sum << endl;
 
@@ -45,7 +49,7 @@ void outputArrayData(double* arr, int size)
     cout << "Outputting array elements: ";
     for (int i = 0; i < size; i++)
     {
-        cout *(arr + i) << " ";
+        cout << *(arr + i) << " ";
     }
     cout << "\n";
 }
@@ -53,7 +57,7 @@ void outputArrayData(double* arr, int size)
 //Function definition for sumArray
 double sumArray(double* arr, int size)
 {
-    double total = 0.0
+    double total = 0.0;
     for (int i = 0; i < size; i++)
     {
         total += *(arr + i);
