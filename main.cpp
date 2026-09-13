@@ -18,3 +18,14 @@ void enterArrayData(double* arr, int size)
     }
     cout << "Data entry complete.\n";
 }
+
+//Function definition for outputArrayData
+void outputArrayData(double* arr, size)
+{
+    cout << "Outputting array elements: ";
+    for (int i = 0; i < size; i++)
+    {
+        cout *(arr + i) << " ";
+    }
+    cout << "\n";
+}
