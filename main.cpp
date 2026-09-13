@@ -4,6 +4,15 @@ using namespace std;
 
 int main()
 {
+    // create array size of 5, using a constant
+    const int SIZE = 5;
+
+    // create dynamic double array
+    double *dynamicArray = nullptr;
+    dynamicArray = new double[SIZE];
+
+
+
     return 0;
 }
 
