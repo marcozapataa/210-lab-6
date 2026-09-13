@@ -1,3 +1,4 @@
+// COMSC-210 | Lab 6 | Marco Z
 #include <iostream>
 using namespace std;
 
