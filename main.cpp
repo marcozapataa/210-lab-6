@@ -11,6 +11,17 @@ int main()
     double *dynamicArray = nullptr;
     dynamicArray = new double[SIZE];
 
+    // call function to populate array
+    enterArrayData(dynamicArray, SIZE);
+    // call function to output array data
+    outputArrayData(dynamicArray, SIZE);
+    // calculate and display the sum
+    double sum = 0.0
+    sum = sumArray(dynamicArray, SIZE);
+    cout << "Sum of values: " << sum << endl;
+
+    // free dynamically allocated memory
+    delete[] dynamicArray;
 
 
     return 0;
